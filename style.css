@@ -18,3 +18,48 @@
 li{
     font-size: 20px;
 }
+.banner-conrainer{
+    background-image: url(banner-img/banner.jpg) ;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.content-title{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-size: 60px;
+    color: azure;
+}
+.digital{
+    color: orange;
+}
+.title-description{
+    font-size: 16px;
+    color: rgb(242, 241, 239);
+    margin: 10px 20px;
+}
+.btn-primary{
+    background-color: rgb(240, 140, 9);
+    border: 1px solid white;
+    padding: 15px 25px ;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.btn-primary:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+   
+   
+  
