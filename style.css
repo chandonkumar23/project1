@@ -57,8 +57,70 @@ li{
     background-color: black;
     color: white;
 }
+.main-content{
+    padding: 130px 200px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  
+}
+.failures-img{
+    height: 100vh;
+   
+}
+.my-failures{
+    width: 300px;
+    top: 40px;
+    align-items: center;
+}
+.f-img{
+    border-radius: 80%;
+    box-shadow: 5px 20px orange ;
+}
+.failures-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
 
-
+}
+.failures-list{
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(148, 156, 162);
+}
+.failures-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(98, 100, 101);
+}
+.my-plan{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    
+}
+.plan-title{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.item-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plan-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    margin: 30px 20px;
+    padding: 100px 80px;
+}
+.plan-discription{
+    color: rgb(85, 86, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
 
    
    
