@@ -10,10 +10,25 @@
     box-shadow: 10px 5px 5px 5px rgb(237, 181, 181) ;
 
 }
+.logo{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-c{
+    color: orange;
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .menus{
     list-style: none;
     display: flex;
     gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+li:hover{
+    color: rgb(247, 161, 0);
 }
 li{
     font-size: 20px;
@@ -125,11 +140,9 @@ li{
     padding: 90px 110px;
 }
 .positive-content{
-    width: 700px;
-    height: 200px;
+    width: 850px;
+    height: 250px;
     background-image:linear-gradient(rgba(225, 100, 62, 0.7),rgba(156, 127, 127, 0.7)), url("watch.png") ;
-    
-
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -162,7 +175,7 @@ li{
 /*******************************footer section***************/
 .footer-container{
     background-color: black;
-    padding: 200px 250px;
+    padding: 170px 250px;
 }
 .footer-container{
     display: flex;
@@ -186,6 +199,16 @@ li{
     margin: 10px 10px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.footer-discription{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-icon i{
+    font-size: 25px;
+    margin: 5px;
+}
+.social-icon i:hover{
+   color: rgb(93, 90, 90);
 }
    
    
