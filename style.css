@@ -159,6 +159,34 @@ li{
     background-color: black;
     color: white;
 }
+/*******************************footer section***************/
+.footer-container{
+    background-color: black;
+    padding: 200px 250px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+  
+}
+.footer-column{
+    color: white;
+    width: 300px;
+}
+.footer-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mall-int{
+    padding: 10px 20px ;
+    border-radius: 5px;
+}
+.subscribe-btn{
+    padding: 8px 20px;
+    margin: 10px 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
    
    
   
