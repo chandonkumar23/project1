@@ -19,7 +19,7 @@ li{
     font-size: 20px;
 }
 .banner-conrainer{
-    background-image: url(banner-img/banner.jpg) ;
+    background-image: url(banner-img/banner.jpg);
   
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,7 +121,44 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
+.positive-container{
+    padding: 90px 110px;
+}
+.positive-content{
+    width: 700px;
+    height: 200px;
+    background-image:linear-gradient(rgba(225, 100, 62, 0.7),rgba(156, 127, 127, 0.7)), url("watch.png") ;
+    
 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.positive-item{
+    width:450px;
+}
+.positive-title{
+   margin: 5px 20px;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(41, 39, 38);
+}
+
+.positive-btn{
+    padding: 10px 15px ;
+    margin-left: 15px;
+    border: 0;
+}
+.positive-btn:hover{
+    background-color: black;
+    color: white;
+}
    
    
   
